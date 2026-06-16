@@ -6,6 +6,7 @@ function Navbar() {
       display: "flex",
       justifyContent: "space-between",
       padding: "20px",
+      flexWrap: "wrap",
       background: "#2563eb",
       color: "white"
     }}>
