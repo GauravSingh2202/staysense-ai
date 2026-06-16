@@ -10,7 +10,10 @@ function About() {
         <h1>About StaySense AI</h1>
 
         <p>
-          StaySense AI helps homestay owners understand guest feedback using AI.
+          <p>
+  StaySense AI helps homestay owners understand guest feedback using AI.
+  It provides insights that help improve customer satisfaction and service quality.
+</p>
         </p>
       </div>
 
