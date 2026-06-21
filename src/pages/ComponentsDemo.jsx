@@ -19,7 +19,7 @@ function ComponentsDemo({ darkMode, setDarkMode }) {
 
    <div style={{ padding: "30px" }}>
     <h1>UI Component Library</h1>
-
+    <h1>heading or improve the ComponentsDemo page</h1>
     <Button text="Click Me" />
 
     <br /><br />
