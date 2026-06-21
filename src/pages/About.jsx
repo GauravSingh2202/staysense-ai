@@ -1,10 +1,13 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-function About() {
+function About({ darkMode, setDarkMode }) {
   return (
     <>
-      <Navbar />
+      <Navbar
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
+      />
 
       <div style={{ padding: "40px" }}>
         <h1>About StaySense AI</h1>
@@ -17,7 +20,7 @@ function About() {
         </p>
       </div>
 
-      <Footer />
+      <Footer darkMode={darkMode} />
     </>
   );
 }
