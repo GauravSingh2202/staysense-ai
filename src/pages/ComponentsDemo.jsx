@@ -19,7 +19,9 @@ function ComponentsDemo({ darkMode, setDarkMode }) {
 
    <div style={{ padding: "30px" }}>
     <h1>UI Component Library</h1>
-    <h1>heading or improve the ComponentsDemo page</h1>
+    <p>
+  This page demonstrates all reusable UI components used in StaySense AI.
+</p>
     <Button text="Click Me" />
 
     <br /><br />
