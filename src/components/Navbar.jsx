@@ -52,12 +52,14 @@ function Navbar({ darkMode, setDarkMode }) {
 
         <button
           onClick={() => setDarkMode(!darkMode)}
-          style={{
-            padding: "8px 12px",
-            border: "none",
-            borderRadius: "5px",
-            cursor: "pointer",
-          }}
+         style={{
+  padding: "10px 15px",
+  border: "none",
+  borderRadius: "8px",
+  cursor: "pointer",
+  fontWeight: "bold",
+  boxShadow: "0 2px 5px rgba(0,0,0,0.2)",
+}}
         >
           {darkMode ? "☀️ Light" : "🌙 Dark"}
         </button>
