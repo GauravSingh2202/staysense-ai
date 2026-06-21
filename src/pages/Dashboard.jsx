@@ -30,7 +30,8 @@ function Dashboard({ darkMode, setDarkMode }) {
 <p
   style={{
     color: darkMode ? "#d1d5db" : "#374151",
-    fontSize: "20px",
+    fontSize: "22px",
+fontWeight: "500",
   }}
 >
   Review analytics and insights will be displayed here.
